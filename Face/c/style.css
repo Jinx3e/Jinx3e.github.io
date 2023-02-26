@@ -1,0 +1,40 @@
+body{background-color: black;}
+canvas{background-color: black; position: relative; top: 15px;}
+#startButton{
+    position: fixed;
+    top: 0%;
+    left: 19%; 
+    width: 62%;
+    background-color: rgb(51, 51, 51);
+    transition-duration: 0.4s;
+    border-top-left-radius: 1vh;
+    border-top-right-radius: 1vh;
+    box-shadow: 0 1.1vh 0 -1.3px #999;
+}
+#startButton:hover{
+    color: white;
+}
+#startButtom:active{
+    background-color: rgb(51, 51, 51);
+    box-shadow: 0 0.5vh 0 -1.3px #666;
+    transform: translateY(10%);
+}
+#Aa{
+    position: fixed;
+    top: 70%;
+    left: 19%; 
+    width: 62%;
+    background-color: rgb(51, 51, 51);
+    transition-duration: 0.4s;
+    border-bottom-left-radius: 1vh;
+    border-bottom-right-radius: 1vh;
+    box-shadow: 0 1.1vh 0 -1.3px #999;
+}
+#Aa:hover{
+    color: white;
+}
+#Aa:active{
+    background-color: rgb(51, 51, 51);
+    box-shadow: 0 0.5vh 0 -1.3px #666;
+    transform: translateY(10%);
+}
